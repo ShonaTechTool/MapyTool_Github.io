@@ -81,10 +81,11 @@
       <main>
         <section class="card">
           <!-- Top ad (replace client ID & slot in the script below) -->
-          <div class="ad-slot" aria-hidden="true" role="complementary">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1122448323794938"
+     crossorigin="anonymous"></script>
             <!-- Google AdSense top banner goes here -->
-            <div style="max-width:468px;width:100%;">Ad space — Top Banner</div>
-          </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1122448323794938"
+     crossorigin="anonymous"></script>
 
           <div style="height:14px"></div>
 
@@ -376,15 +377,17 @@
        data-ad-slot="AD_SLOT_TOP"
        data-ad-format="auto"
        data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1122448323794938"
+     crossorigin="anonymous"></script>
   <!-- Sidebar ad -->
   <ins class="adsbygoogle"
        style="display:block"
        data-ad-client="CA_PUB_CLIENT"
        data-ad-slot="AD_SLOT_SIDEBAR"
        data-ad-format="auto"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-1122448323794938">
+</amp-auto-ads>
   -->
 
   <!-- Notes for deployment & SEO improvements:
